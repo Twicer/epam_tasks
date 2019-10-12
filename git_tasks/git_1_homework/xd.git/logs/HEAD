@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 fd741ba4094a716adb0108add985c5043882a52d Zviger <mbs131119999@gmail.com> 1570877617 +0300	commit (initial): initial_commit
+fd741ba4094a716adb0108add985c5043882a52d fd741ba4094a716adb0108add985c5043882a52d Zviger <mbs131119999@gmail.com> 1570877734 +0300	checkout: moving from master to feature_owner_name
+fd741ba4094a716adb0108add985c5043882a52d 8bdf5c13dc37ecf309e8a519f6ed8f6ddfddaaff Zviger <mbs131119999@gmail.com> 1570877765 +0300	commit: owner_name
+8bdf5c13dc37ecf309e8a519f6ed8f6ddfddaaff 9730eef74e9b3ba959e2d6fe54c5a73154cc0486 Zviger <mbs131119999@gmail.com> 1570878113 +0300	commit (amend): owner_name
+9730eef74e9b3ba959e2d6fe54c5a73154cc0486 fd741ba4094a716adb0108add985c5043882a52d Zviger <mbs131119999@gmail.com> 1570878306 +0300	checkout: moving from feature_owner_name to master
+fd741ba4094a716adb0108add985c5043882a52d 7b5d9bd3f7e89c7199764ef877b1e3fec94c957e Zviger <mbs131119999@gmail.com> 1570878418 +0300	commit: add_adjective
+7b5d9bd3f7e89c7199764ef877b1e3fec94c957e c3bc50e53fa39bb45a30aaaefa50c40ee1788d18 Zviger <mbs131119999@gmail.com> 1570878691 +0300	commit (merge): Merge branch 'feature_owner_name'
