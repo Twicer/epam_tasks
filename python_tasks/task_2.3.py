@@ -1,10 +1,4 @@
-def my_split(s, c):
-    if isinstance(s, str) is False:
-        print("First argument not a string")
-        return None
-    if isinstance(c, str) is False:
-        print("Second argument not a string")
-        return None
+def my_split(s: str, c: str):
     new_list = []
     tmp_s = ""
     for _c in s:

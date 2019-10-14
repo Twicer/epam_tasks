@@ -1,7 +1,4 @@
-def get_longest_word(s):
-    if isinstance(s, str) is False:
-        print("It's not a string")
-        return None
+def get_longest_word(s: str):
     words = s.split()
     lens_words = [len(word) for word in words]
     max_len = max(lens_words)

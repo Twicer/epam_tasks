@@ -1,4 +1,4 @@
-def generate_squares(num):
+def generate_squares(num: int):
     return {i: i ** 2 for i in range(1, num+1, 1)}
 
 

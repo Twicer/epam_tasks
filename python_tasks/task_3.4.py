@@ -1,4 +1,4 @@
-def combine_dicts(*args):
+def combine_dicts(*args: dict):
     result_dict = {}
     for _dict in args:
         for k, v in _dict.items():

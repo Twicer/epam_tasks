@@ -1,7 +1,4 @@
-def is_palindrome(s):
-    if isinstance(s, str) is False:
-        print("It's not a string")
-        return None
+def is_palindrome(s: str):
     s = s.replace(" ", "").lower()
     str_len = len(s)
     for index, char in enumerate(s, start=1):

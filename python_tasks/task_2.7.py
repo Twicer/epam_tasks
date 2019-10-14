@@ -1,15 +1,8 @@
 import functools
 
 
-def func(start_list):
-    if isinstance(start_list, list) is False:
-        print("It's not a list")
-        return None
-    try:
-        full_product = functools.reduce(lambda a, b: a*b, start_list)
-    except TypeError:
-        print("List has not int item")
-        return None
+def func(start_list: list):
+    full_product = functools.reduce(lambda a, b: a*b, start_list)
     return [full_product // i for i in start_list]
 
 

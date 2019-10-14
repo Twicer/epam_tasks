@@ -1,4 +1,4 @@
-def get_pairs(start_list):
+def get_pairs(start_list: list):
     list_1 = start_list[1:]
     list_2 = start_list[:-1]
     result = list(zip(list_2, list_1))

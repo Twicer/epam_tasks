@@ -1,7 +1,4 @@
-def swaper(s):
-    if isinstance(s, str) is False:
-        print("It's not a string")
-        return None
+def swaper(s: str):
     new_s = ""
     for char in s:
         if char == "\"":
