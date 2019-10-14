@@ -1,4 +1,7 @@
 def get_digits(num):
+    if isinstance(num, int) is False:
+        print("It's not an int")
+        return None
     return [c for c in str(num)]
 
 

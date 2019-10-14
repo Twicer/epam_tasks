@@ -1,7 +1,19 @@
 def split_by_index(s, indexes):
+    if isinstance(s, str) is False:
+        print("First argument not a string")
+        return None
+    if isinstance(indexes, list) is False:
+        print("Second argument not a list")
+        return None
     len_s = len(s)
+    if isinstance(indexes[0], int) is False:
+        print("List has not int item")
+        return None
     new_indexes = [indexes[0]]
     for i in range(len(indexes))[1:]:
+        if isinstance(indexes[i], int) is False:
+            print("List has not int item")
+            return None
         current_index = indexes[i]
         if len_s - 1 < current_index:
             break
