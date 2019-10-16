@@ -6,7 +6,7 @@ def func_1(*ss: str):
     result_chars = (sets_of_chars[0])
     for set_of_chars in sets_of_chars[1:]:
         result_chars = result_chars.intersection(set_of_chars)
-    return list(result_chars)
+    return result_chars
 
 
 def func_2(*ss: str):
@@ -14,14 +14,14 @@ def func_2(*ss: str):
     for s in ss:
         for c in list(s):
             all_chars.append(c)
-    return list(set(all_chars))
+    return set(all_chars)
 
 
 def func_3(*ss: str):
-    result_chars = func_1(ss[0], ss[-1])
-    for i in range(len(ss)-1):
-        result_chars += (func_1(ss[i], ss[i + 1]))
-    return list(set(result_chars))
+    result_chars = []
+    for c, n in zip(ss, (ss[-1],) + ss):
+        result_chars += (func_1(c, n))
+    return set(result_chars)
 
 
 def func_4(*ss: str):

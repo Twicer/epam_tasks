@@ -1,5 +1,5 @@
 def get_digits(num: int):
-    return [c for c in str(num)]
+    return tuple(int(c) for c in str(num))
 
 
 if __name__ == "__main__":

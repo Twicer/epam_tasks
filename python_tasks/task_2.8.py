@@ -8,4 +8,4 @@ def get_pairs(start_list: list):
 
 
 if __name__ == "__main__":
-    print(get_pairs([1]))
+    print(get_pairs([1, 2, 3, 4, 5]))
