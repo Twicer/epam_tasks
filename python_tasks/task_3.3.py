@@ -1,11 +1,7 @@
 def count_letters(s: str):
     result_dict = {}
     for c in s:
-        current_count = result_dict.get(c)
-        if current_count:
-            result_dict.update({c: current_count + 1})
-        else:
-            result_dict.update({c: 1})
+        result_dict[c] = result_dict.get(c, 0) + 1
     return result_dict
 
 

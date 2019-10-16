@@ -2,11 +2,7 @@ def combine_dicts(*args: dict):
     result_dict = {}
     for _dict in args:
         for k, v in _dict.items():
-            current_count = result_dict.get(k)
-            if current_count:
-                result_dict.update({k: current_count + v})
-            else:
-                result_dict.update({k: v})
+            result_dict[k] = result_dict.get(k, 0) + v
     return result_dict
 
 
